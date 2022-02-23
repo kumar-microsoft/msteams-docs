@@ -31,7 +31,7 @@ microsoftTeams.sharing.shareWebContent({
         content: [
           {
             type: 'URL',
-            url: 'URL which the dev wants to be shared',
+            url: '<URL to be shared>',
             preview: true
           }
         ]
@@ -43,8 +43,8 @@ The payload contains the following parameters:
 | Property name | Purpose |
 |---|---|
 | `type` | The type must be `URL` |
-| `url` | Required URL |
-| `preview` | Preview must be `true` |
+| `url` | URL to be shared |
+| `preview` | Set to `true` to enable URL preview |
 
 The following image shows the Share-to-Teams option:
 
